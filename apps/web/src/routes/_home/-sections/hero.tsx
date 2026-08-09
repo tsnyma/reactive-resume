@@ -58,11 +58,11 @@ export function Hero() {
 					whileTap={{ scale: 0.985 }}
 					target="_blank"
 					rel="noopener noreferrer"
-					href="https://docs.rxresu.me/getting-started"
+					<Trans>Welcome to Fora</Trans> 
 				>
 					<Badge variant="secondary" className="h-auto gap-1.5 px-3 py-0.5">
 						<SparkleIcon aria-hidden="true" className="size-3.5" weight="fill" />
-						<Trans>What's new in the latest version?</Trans>
+					
 					</Badge>
 				</m.a>
 
@@ -76,7 +76,7 @@ export function Hero() {
 					<Trans>
 						<p className="font-medium text-muted-foreground tracking-tight md:text-lg">Finally,</p>
 						<h1 className="mt-1 font-semibold text-4xl tracking-tight md:text-5xl lg:text-6xl">
-							A free and open-source resume builder
+							Fora - Professional Resume Builder 
 						</h1>
 					</Trans>
 				</m.div>
@@ -89,8 +89,7 @@ export function Hero() {
 					transition={{ duration: 0.45, delay: 0.82 }}
 				>
 					<Trans>
-						Reactive Resume is a free and open-source resume builder that simplifies the process of creating, updating,
-						and sharing your resume.
+						Create, customize, and share your professional resume easily with Fora .
 					</Trans>
 				</m.p>
 
@@ -118,21 +117,7 @@ export function Hero() {
 						}
 					/>
 
-					<Button
-						size="lg"
-						variant="ghost"
-						className="gap-2 px-4"
-						nativeButton={false}
-						render={
-							<a href="https://docs.rxresu.me" target="_blank" rel="noopener noreferrer">
-								<BookIcon aria-hidden="true" className="size-4" />
-								<Trans>Learn More</Trans>
-								<span className="sr-only">
-									<Trans>(opens in new tab)</Trans>
-								</span>
-							</a>
-						}
-					/>
+				
 				</m.div>
 			</div>
 
