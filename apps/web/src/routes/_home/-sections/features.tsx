@@ -33,10 +33,10 @@ type FeatureCardProps = Feature;
 
 const getFeatures = (): Feature[] => [
 	{
-		id: "free",
+		id: "free ",
 		icon: CurrencyDollarIcon,
-		title: t`Free`,
-		description: t`Completely free, forever, no hidden costs.`,
+		title: t`t'Free plan`,
+		description: t`t'Generous free plan with core features to build and export your resume  .`,
 	},
 	{
 		id: "open-source",
@@ -63,10 +63,10 @@ const getFeatures = (): Feature[] => [
 		description: t`Your data is secure, and never shared or sold to anyone.`,
 	},
 	{
-		id: "self-host",
+		id: "pro-features ",
 		icon: CloudArrowUpIcon,
-		title: t`Self-Host with Docker`,
-		description: t`You also have the option to deploy on your own servers using the Docker image.`,
+		title: `t'Pro Upgrades `,
+		description: t`Unlock unlimited downloads, premium templates, and advanced tools .`,
 	},
 	{
 		id: "languages",
@@ -90,7 +90,7 @@ const getFeatures = (): Feature[] => [
 		id: "unlimited-resumes",
 		icon: FilesIcon,
 		title: t`Unlimited Resumes`,
-		description: t`Create as many resumes as you want, without limits.`,
+		description: t`Create and manage multiple resume versions easily .`,
 	},
 	{
 		id: "design",
@@ -184,8 +184,8 @@ export function Features() {
 
 				<p className="max-w-2xl text-muted-foreground leading-relaxed">
 					<Trans>
-						Everything you need to create, customize, and share professional resumes. Built with privacy in mind,
-						powered by open source, and completely free forever.
+						Everything you need to create, customize, and share professional resumes with Fora. Start for free and upgrade as you grow.
+
 					</Trans>
 				</p>
 			</m.div>
