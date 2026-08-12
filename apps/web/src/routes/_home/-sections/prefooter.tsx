@@ -12,7 +12,7 @@ export function Prefooter() {
 			</div>
 
 			<div className="relative space-y-8">
-				<TextMaskEffect aria-hidden="true" text="Reactive Resume" className="hidden md:block" />
+				<TextMaskEffect aria-hidden="true" text="Fora" className="hidden md:block" />
 
 				<m.div
 					className="mx-auto max-w-3xl space-y-8 px-6 text-center will-change-[transform,opacity] md:px-8 xl:px-0"
@@ -22,15 +22,15 @@ export function Prefooter() {
 					transition={{ duration: 0.45 }}
 				>
 					<h2 className="font-semibold text-2xl tracking-tight md:text-4xl">
-						<Trans>By the community, for the community.</Trans>
+						<Trans>Biuld your Professional resume today.</Trans>
 					</h2>
 
 					<p className="text-muted-foreground leading-relaxed">
-						<Trans>
-							Reactive Resume continues to grow thanks to its vibrant community. This project owes its progress to
-							numerous individuals who've dedicated their time and skills to make it better. We celebrate the coders
-							who've enhanced its features on GitHub, the linguists whose translations on Crowdin have made it
-							accessible to a broader audience, and the people who've donated to support its continued development.
+						<Trans> 
+							Fora empower job seekers whith modren, 
+							customizable templates to carft standout resume in minutes .
+							Get Started today for free.
+							
 						</Trans>
 					</p>
 				</m.div>
