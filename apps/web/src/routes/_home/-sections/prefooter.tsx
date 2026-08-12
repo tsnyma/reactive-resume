@@ -22,14 +22,14 @@ export function Prefooter() {
 					transition={{ duration: 0.45 }}
 				>
 					<h2 className="font-semibold text-2xl tracking-tight md:text-4xl">
-						<Trans>Biuld your Professional resume today.</Trans>
+						<Trans>Biuld your professional resume today.</Trans>
 					</h2>
 
 					<p className="text-muted-foreground leading-relaxed">
 						<Trans> 
-							Fora empower job seekers whith modren, 
-							customizable templates to carft standout resume in minutes .
-							Get Started today for free.
+							Fora empower job seekers with modren, 
+							customizable templates to craft standout resume in minutes .
+							Get started today for free.
 							
 						</Trans>
 					</p>
