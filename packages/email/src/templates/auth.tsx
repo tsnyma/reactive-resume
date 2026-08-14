@@ -21,7 +21,9 @@ import {
 void React;
 
 const appName = "Fora";
-const logoUrl = "https://rxresu.me/icon/dark.svg";
+
+// change the sheeeeeee3333333aaarrrrrrrr
+const logoUrl = "";
 
 interface AuthEmailLayoutProps {
 	preview: string;
