@@ -20,7 +20,7 @@ import {
 // ponytail: server dev consumes this source through tsx, which emits React.createElement here.
 void React;
 
-const appName = "Reactive Resume";
+const appName = "Fora";
 const logoUrl = "https://rxresu.me/icon/dark.svg";
 
 interface AuthEmailLayoutProps {
@@ -147,7 +147,7 @@ export function ResetPasswordEmail({ url }: ResetPasswordEmailProps) {
 			details="If this was not you, you can ignore this message and your password will remain unchanged."
 			actionLabel="Create New Password"
 			actionUrl={url}
-			outro="For security, only use links from emails sent by Reactive Resume."
+			outro="For security, only use links from emails sent by Fora."
 		/>
 	);
 }
