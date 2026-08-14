@@ -49,22 +49,23 @@ export function Hero() {
 
 			<div className="relative z-10 flex max-w-2xl flex-col items-center gap-y-6 px-4 xs:px-0 text-center">
 				{/* Badge */}
-				<m.a
-					className="will-change-[transform,opacity]"
-					initial={{ opacity: 0, y: 20 }}
-					animate={{ opacity: 1, y: 0 }}
-					transition={{ duration: 0.45, delay: 0.55 }}
-					whileHover={{ y: -2, scale: 1.01 }}
-					whileTap={{ scale: 0.985 }}
-					target="_blank"
-					rel="noopener noreferrer"
-					<Trans>Welcome to Fora</Trans> 
-				>
-					<Badge variant="secondary" className="h-auto gap-1.5 px-3 py-0.5">
-						<SparkleIcon aria-hidden="true" className="size-3.5" weight="fill" />
-					
-					</Badge>
-				</m.a>
+			      <m.a
+        className="will-change-[transform,opacity]"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.45, delay: 0.55 }}
+        whileHover={{ y: -2, scale: 1.01 }}
+        whileTap={{ scale: 0.985 }}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Trans>Welcome to Fora</Trans>
+
+        <Badge variant="secondary" className="h-auto gap-1.5 px-3 py-0.5">
+          <SparkleIcon aria-hidden="true" className="size-3.5" weight="fill" />
+        </Badge>
+      </m.a>
+
 
 				{/* Headline */}
 				<m.div
