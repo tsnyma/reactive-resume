@@ -54,31 +54,29 @@ export function Header() {
 				</Link>
 
 				<div className="ml-auto flex items-center gap-x-2">
-					<LocaleCombobox
-						render={
-							<Button size="icon" variant="ghost" aria-label={t`Change language`}>
-								<TranslateIcon />
-							</Button>
-						}
-					/>
+		<LocaleCombobox
+  render={(
+    <Button size="icon" variant="ghost" aria-label={t`Change language`}>
+      <TranslateIcon />
+    </Button>
+  )}
+/>
 
-					<ThemeToggleButton />
+<ThemeToggleButton />
 
-					
-
-						<Button
-							size="icon"
-							nativeButton={false}
-							aria-label={t`Go to dashboard`}
-							render={
-								<Link to="/dashboard">
-									<ArrowRightIcon aria-hidden="true" />
-								</Link>
-							}
-						/>
-					</div>
-				</div>
-			</nav>
-		</m.header>
-	);
+<Button
+  size="icon"
+  nativeButton={false}
+  aria-label={t`Go to dashboard`}
+  render={(
+    <Link to="/dashboard">
+      <ArrowRightIcon aria-hidden="true" />
+    </Link>
+  )}
+/>
+</div>
+</nav>
+</m.header>
+);
+		
 }
